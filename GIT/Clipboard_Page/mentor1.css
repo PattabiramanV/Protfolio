@@ -1,0 +1,462 @@
+body{
+    max-width: 1440px;
+width: 100%;
+height: 100%;
+margin: 0;
+font-family: 'Bai Jamjuree', sans-serif;
+}
+.containermain1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-header-desktop.png);
+
+    background-repeat: no-repeat;
+    
+}
+.container1{
+    width: 60%;
+    padding: 60px 0px;
+    text-align: center;
+}
+button.container1btn {
+    margin: 0px 5px;
+    height: 46px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+.container1 .greenbtn{
+    background-color:hsl(171, 66%, 44%);
+}
+.container1 .greenbtn:hover{
+    cursor: pointer;
+    box-shadow: 0 8px  16px 0 hsla(171, 66%, 44%, 0.616);
+
+}
+.container1 .bluebtn{
+    background-color:  hsl(233, 100%, 69%);
+}
+.container1 .bluebtn:hover{
+    cursor: pointer;
+    box-shadow: 0 4px  8px 0 gray;
+}
+
+.container1 h1 {
+    font-size: 48px;
+}
+.container1 p{
+    font-size: 18px;
+    color: #00000069;
+}
+
+/*.......................container2...............................................................*/
+
+
+   
+    .containermain2{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }    
+    .container2 { 
+        width: 60%;
+        height: 100%;
+        text-align: center;
+    }
+    .container2 p {
+        font-size: 18px;
+        line-height: 25px;
+        color: #00000070;
+    }
+
+    /*........................container3.......................................................*/
+
+    .containermain3{
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        justify-content: center;
+        /* align-items: center; */
+        /* gap: 30px; */
+    }
+    .container3{
+        width: 71%;
+        height: 100%;
+        display:flex;
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin-top: 30px;
+        gap: 46px;
+    }
+    /* .container3>*{
+        width: 50%;
+    } */
+         .container3 img {
+            
+            width: 519px;
+            height: 400px;
+            position: relative;
+            left: -22px;
+        } 
+        .container3 p {
+            font-size: 18px;
+            color: #00000080;
+        }
+
+        .container3 h2 {
+            font-size: 25px;
+        }
+        img.microsoft {
+            width: 9%;
+            height: 21px;
+        }
+        
+        
+    /*................................container4...................................................................*/
+    .containermain4{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    .container4{
+        width: 79%;
+        text-align: center;
+        margin: 35px auto;
+        
+    }
+    .container4 p {
+        font-size: 18px;
+        color: #0000007a;
+    }
+    /*.................................container5.......................................................*/
+    .container5 {
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    .container5 img {
+        width: 50%;
+    }
+/*......................................container6....................................................................*/
+.container6{
+    text-align: center;
+}
+.container6 h1 {
+    font-size: 35px;
+}
+.container6 p {
+    font-size: 18px;
+    color: #00000087;
+}
+/*.......................................,.,.,.,.,.,.,container7................................,.,.,.,.,.,.,.,.,,,,,*/
+.maincontainer7{
+    width: 100%;
+    text-align: center;
+}
+.container7 {
+    width: 67%;
+    display: inline-flex;
+    margin: 31px auto;
+    align-items: baseline;
+    gap: 6px;
+}
+    
+.container7 img .maincontainer10 {
+    display: flex;
+    justify-content: center;
+
+    width: 10%;
+}
+.container7 h2 {
+    font-size: 25px;
+}    
+.container7 p {
+    font-size: 18px;
+    color: #00000087;
+}
+
+/*................................................................container8..........................................*/
+
+.maincontainer8 {
+    display: flex;
+    justify-content: center;
+}
+.container8 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: 40px auto;
+    /* flex-wrap: wrap; */
+    gap: 60px;
+}
+
+ .container8 img {
+     display: inline-flex;
+    width: 10%;
+}
+img#vectorimg {
+    width: 8%;
+    height: 50%;
+} 
+
+/*............................................................container9........................................*/
+
+.maincontainer9 {
+    display: flex;
+    justify-content: center;
+}
+.container9 {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.container9 h1 {
+    font-size: 48px;
+}
+.container9 p{
+    font-size: 18px;
+    color: #00000069;
+}
+
+.container9btn button {
+    margin: 0px 5px;
+    height: 46px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+.container9btn #greenbtn{
+    background-color:hsl(171, 66%, 44%);
+}
+.container9btn #greenbtn:hover{
+    cursor: pointer;
+    box-shadow: 0 8px  16px 0 hsla(171, 66%, 44%, 0.616);
+
+}
+.container9btn #bluebtn{
+    background-color:  hsl(233, 100%, 69%);
+}
+.container9btn #bluebtn:hover{
+    cursor: pointer;
+    box-shadow: 0 4px  8px 0 gray;
+}
+/*...................................................container10....................................................*/
+.maincontainer10 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(135, 207, 235, 0.5);
+    /* margin: 50px auto; */
+    margin-top: 40px;
+}
+.container10 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 120px;
+    width: 100%;
+    margin: 42px auto;
+}
+
+
+.contentleft {
+
+    /* text-align: center; */
+    display: flex;
+    /* align-items: center; */
+    gap: 30px;
+    /* align-items: center; */
+}
+
+.container10 .contentleft img {
+    
+        width: 50px;
+        height: 50px;
+    
+} 
+
+.container10 .imgright  {
+    display: flex;
+    gap: 10px;
+    height: 18px;
+}
+.container10 .imgright :hover{
+    cursor: pointer;
+    background-color: hsl(171, 66%, 44%);
+}
+
+.container10 h4 {
+    line-height: 30px;
+    color: #0000008a;
+}
+.container10 h4:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+    
+}
+
+.leftimg img {
+    margin: 25px auto;
+    /* width: 10px; */
+}
+
+/* .container10 .leftimg{
+    width: 10%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.....................................................mediaquries..............................*/
+
+@media screen and (max-width:600px) {
+    /* .containermain1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }*/
+    
+    .container1{
+        width: 100%;
+        /* padding: 60px 0px;
+        text-align: center; */
+    }
+    button.container1btn {
+        margin: 10px auto;
+        width: 323px;
+        /* height: 46px;
+        width: 200px; */
+        /* border-radius: 25px;
+        border: none;
+        color: white; */
+        /* display: grid;
+        text-align: center; */
+    } 
+
+.container1 h1 {
+    font-size: 40px;
+    /* padding: 10px; */
+}
+    
+    /*...................................................container3...................................*/
+    .container3{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        text-align: center;
+        /* justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 46px; */
+    }
+    /* .contentright {
+        text-align: center;
+      } */
+
+    .container3 img{
+        width: 350px;
+        height: 250px;
+        position: relative;
+        left: 10px;
+    }
+    
+    /*...................................................container7...........................*/
+.container7 {
+    /* width: 67%; */
+    display: grid;
+    margin: 80px auto;
+    /* align-items: baseline;
+    gap: 6px; */
+  }
+/*...............................................container8..............................................*/
+  .container8 {
+    display: grid;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    width: 70%;
+    /* margin: 40px auto;
+    
+    flex-direction: column;
+    gap: 40px; */
+  } 
+
+   .container8 img{
+    width: 50%;    
+} 
+img#vectorimg {
+    width: 95px;
+    height: 25px;
+}
+
+
+/*...........................................,,.,.,.,,,,,,,,container9..........................,,,,,,,,,*/
+
+.container9btn button {
+    margin: 7px auto;
+    width: 323px;
+    /* height: 46px;
+    width: 200px; */
+    /* border-radius: 25px;
+    border: none;
+    color: white; */
+}
+.container9 {
+    width: 55%;
+    /* display: grid;
+    justify-content: center;
+    text-align: center; */
+}
+
+
+/*...................................................container10.............................,,,,,,,,,,,,,,,*/
+.container10 {
+    display: grid;
+    gap: 50px;
+    text-align: center;
+   
+}
+.contentleft{
+    display: grid;
+    gap: 0;
+}
+.container10 h4 {
+    line-height: 30px;
+    color: #0000008a;
+    margin: 0;
+    line-height: 50px;
+}
+.container10 .imgright {
+    display: flex;
+    gap: 30px;
+    height: 25px;
+}
+}
+
+@media screen, (max-width:425px) and (min-width:320px) {
+    
+}
